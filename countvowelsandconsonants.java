@@ -10,8 +10,7 @@ public class countvowelsandconsonants{
             char ch=s.charAt(i);
             if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
                 vowels++;
-
-            }else if(ch==' ') {
+             }else if(ch==' ') {
     
             }else{
                 consonants++;
